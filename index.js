@@ -31,5 +31,5 @@ mongoose.connect(config.DB, { useNewUrlParser: true }).then(
 app.use('/', newsRoute);
 
 app.listen(PORT, function(){
-    console.log(`Server is running in http://localhost/${PORT}`);
+    console.log(`Server is running in http://localhost:${PORT}`);
 });
